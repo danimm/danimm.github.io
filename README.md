@@ -1,3 +1,5 @@
 # Welcome to my Personal Repository
 
-www.danimm.com    danimm.github.io
+www.danimm.com    
+
+www.danimm.github.io
