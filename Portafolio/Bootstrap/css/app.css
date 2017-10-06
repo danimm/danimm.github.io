@@ -151,12 +151,11 @@ small {
   justify-content: center;
 }
 
-.WebSkills-row span, .WebSkills.progress, .WebSkills .col-sm-11 {
-  padding: 0 0 15px 15px;
+.WebSkills-row span, .WebSkills.progress, .WebSkills .col-sm-1 {
+  padding: 0 0 15px 0px;
 }
-
-.col-sm-1 span {
-  padding-left: 0;
+.WebSkills .WebSkills-row .col-sm-1 {
+  padding-top:7px;
 }
 
 .progress {
@@ -165,6 +164,10 @@ small {
 
 .WebWork {
   margin-bottom: 60px;
+}
+
+.WebWork-card {
+  padding:12px;
 }
 
 .WebWork button {
@@ -249,6 +252,11 @@ small {
   background-color:#DDDDDD;
 }
 
+.footer{
+  padding-top: 1.5rem;
+  color: #777;
+  border-top: .05rem solid #e5e5e5;
+}
 /*Large*/
 
 @media (max-width: 1199px) {

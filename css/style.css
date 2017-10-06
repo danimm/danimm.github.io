@@ -1,0 +1,176 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.aboutME{
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.paralax1{
+  min-height: 100vh;
+}
+
+  .paralax1 .section{
+    /*padding-top: 20%;*/
+  }
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagen{
+  /*border-radius: 59%;*/
+  /*max-width: 260px;*/
+  border: 5px solid #1976D2;
+  max-height: 280px;
+}
+/*Skills*/
+.progress{
+  height: 10px;
+}
+.WebSkills h3.title{
+  padding: 25px;
+}
+
+.WebSkills-container{
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.tabs .indicator{
+  background-color: white;
+}
+.tabs .tab a{
+  color: #bbdefb;
+}
+.tabs .tab{
+  background-color: #1976D2;
+}
+.tabs .tab a:hover,
+.tabs .tab a.active{
+  background-color: #1976D2;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+  color: white;
+}
+/*#40c4ff*/
+
+/*Skills*/
+
+.education-container{
+  margin-top: 20px;
+}
+
+.about{
+  margin-bottom: 30px;
+}
+
+.links-footer{
+  border:none
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 30%;
+  }
+}
+
+@media only screen and (max-width : 372px) {
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.derecha{
+  border-left: 4px #1976D2 solid;
+}
+.derecha.col{
+  padding-left: 1.5em;
+  padding-right: 0;
+}
+.DVSkills{
+  text-align: right;
+  padding: 0;
+}
+.dividerTop{
+  height: 4px;
+  background-color: #1976D2;
+}
+.nivel{
+  width: 7em;
+}
+.contact{
+  text-align: center;
+}
+.Hobbies img{
+  max-height: 4em;
+  padding: 5px 0 5px 0;
+}
+.hobbie-contenedor{
+  text-align: center;
+  padding: 0;
+}
+.hobbie-contenedor span{
+  display: block;
+}
+.contenido{
+  margin-top: 20px;
+}
+.contenido p{
+  margin: 0;
+}
+.contenido .s9{
+  margin-bottom: 20px;
+}
+.contenido p:last-child{
+  margin-bottom: 20px;
+}
