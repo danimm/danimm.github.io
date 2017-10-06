@@ -174,3 +174,9 @@ footer.page-footer {
 .contenido p:last-child{
   margin-bottom: 20px;
 }
+.card-action{
+  text-align: center;
+}
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+  margin-right: 0;
+}
